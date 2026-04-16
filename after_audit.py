@@ -1,6 +1,3 @@
-# Student Grade Management Application
-# Manages student scores and calculates final grades
-
 GRADE_THRESHOLDS = [
     (85, "A"),
     (70, "B"),
@@ -68,7 +65,7 @@ def process_all_students():
         print_student_result(name)
 
 
-# --- Main Program ---
+
 add_score("Budi", 80, "UTS")
 add_score("Budi", 90, "UAS")
 add_score("Budi", 75, "Tugas")
